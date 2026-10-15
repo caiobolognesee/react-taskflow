@@ -1,12 +1,5 @@
 
-export interface Task {
-  id: number
-  title: string
-  description: string
-  completed: boolean
-  createdAt: string
-  updatedAt: string
-}
+import type { Task } from '../types/task'
 
 const API_URL = import.meta.env.VITE_API_URL
 
